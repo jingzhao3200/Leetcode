@@ -44,7 +44,10 @@ class Solution(object):
             return None
 
         root = TreeNode(postorder.pop())
-        inIdx = inorder.index(root.val)
+        inIdx = inorder.index(root.val) #inIdx means in which layer down-to-up, if it is 0, means no subtree
+        print(root.val, inIdx)
+        print('right subtree:', inorder[inIdx+1:])
+        print('left subtree', inorder[:inIdx])
 
         root.right = self.buildTree(inorder[inIdx+1:], postorder)
         root.left = self.buildTree(inorder[:inIdx],postorder)
