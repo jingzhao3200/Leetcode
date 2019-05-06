@@ -23,6 +23,15 @@ class TreeNode(object):
         self.val = x
         self.left = None
         self.right = None
+    def display(self, root, i):
+        if root is not None:
+            print(i,':', end = " ")
+            print(root.val)
+            i += 1
+            self.display(root.left, i)
+            self.display(root.right, i)
+
+
 
 class Solution(object):
     def buildTree(self, inorder, postorder):
@@ -31,8 +40,33 @@ class Solution(object):
         :type postorder: List[int]
         :rtype: TreeNode
         """
+        if not inorder or not postorder:
+            return None
+
+        root = TreeNode(postorder.pop())
+        inIdx = inorder.index(root.val)
+
+        root.right = self.buildTree(inorder[inIdx+1:], postorder)
+        root.left = self.buildTree(inorder[:inIdx],postorder)
+        return root
 
 
+def main():
+    inorder = [9, 3, 15, 20, 7]
+    postorder = [9, 15, 7, 20, 3]
+
+    sol = Solution()
+    root = sol.buildTree(inorder,postorder)
+
+    #display tree
+    root.display(root, 1)
+
+    return
+
+
+
+if __name__ == '__main__':
+    main()
 
 
 
