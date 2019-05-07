@@ -40,17 +40,18 @@ class Solution(object):
         :type postorder: List[int]
         :rtype: TreeNode
         """
-        if not inorder or not postorder:
+        if not inorder or not postorder:  # do until inoder and postorder are all empty
             return None
 
-        root = TreeNode(postorder.pop())
+        root = TreeNode(postorder.pop()) #last one of postorder is the top root
         inIdx = inorder.index(root.val) #inIdx means in which layer down-to-up, if it is 0, means no subtree
         print(root.val, inIdx)
         print('right subtree:', inorder[inIdx+1:])
         print('left subtree', inorder[:inIdx])
+        print('postorder:', postorder)
 
         root.right = self.buildTree(inorder[inIdx+1:], postorder)
-        root.left = self.buildTree(inorder[:inIdx],postorder)
+        root.left = self.buildTree(inorder[:inIdx], postorder)
         return root
 
 
