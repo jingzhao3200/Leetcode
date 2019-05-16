@@ -63,7 +63,7 @@ def main():
     root.display(root, 1)
 
     sol = Solution()
-    res = sol.lowestCommonAncestor(root, None, None)
+    res = sol.lowestCommonAncestor(root, n1, n1)
 
     return
 
