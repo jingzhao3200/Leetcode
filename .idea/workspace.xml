@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45a38a18-444d-434d-843b-3255a3983d1f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Populating Next Right Pointers in Each Node II.py" beforeDir="false" afterPath="$PROJECT_DIR$/Populating Next Right Pointers in Each Node II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lowest Common Ancestor of a Binary Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lowest Common Ancestor of a Binary Tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,9 +15,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode$Count_UnitValue_Subtree.coverage" NAME="Count_UnitValue_Subtree Coverage Results" MODIFIED="1557105971780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.coverage" NAME="Construct Binary Tree from Preorder and Inorder Traversal Coverage Results" MODIFIED="1557952333257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$Lowest_Common_Ancestor_of_a_Binary_Tree.coverage" NAME="Lowest Common Ancestor of a Binary Tree Coverage Results" MODIFIED="1558036853021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.coverage" NAME="Construct Binary Tree from Inorder and Postorder Traversal Coverage Results" MODIFIED="1557266323098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Populating_Next_Right_Pointers_in_Each_Node.coverage" NAME="Populating Next Right Pointers in Each Node Coverage Results" MODIFIED="1558030529149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Leetcode$Populating_Next_Right_Pointers_in_Each_Node_II.coverage" NAME="Populating Next Right Pointers in Each Node II Coverage Results" MODIFIED="1558030594069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$Populating_Next_Right_Pointers_in_Each_Node_II.coverage" NAME="Populating Next Right Pointers in Each Node II Coverage Results" MODIFIED="1558032472114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -39,16 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Populating Next Right Pointers in Each Node.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node.py">
+      <file leaf-file-name="Lowest Common Ancestor of a Binary Tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lowest Common Ancestor of a Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="345">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Populating Next Right Pointers in Each Node II.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Populating Next Right Pointers in Each Node.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Populating Next Right Pointers in Each Node II.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node II.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="82">
@@ -77,6 +87,7 @@
         <option value="$PROJECT_DIR$/Construct Binary Tree from Preorder and Inorder Traversal.py" />
         <option value="$PROJECT_DIR$/Populating Next Right Pointers in Each Node.py" />
         <option value="$PROJECT_DIR$/Populating Next Right Pointers in Each Node II.py" />
+        <option value="$PROJECT_DIR$/Lowest Common Ancestor of a Binary Tree.py" />
       </list>
     </option>
   </component>
@@ -138,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Populating Next Right Pointers in Each Node II">
+  <component name="RunManager" selected="Python.Lowest Common Ancestor of a Binary Tree">
     <configuration name="Construct Binary Tree from Inorder and Postorder Traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,20 +188,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Count_UnitValue_Subtree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Lowest Common Ancestor of a Binary Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/Applications/anaconda3/envs/python36/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Count_UnitValue_Subtree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lowest Common Ancestor of a Binary Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,19 +246,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Count_UnitValue_Subtree" />
       <item itemvalue="Python.Construct Binary Tree from Inorder and Postorder Traversal" />
       <item itemvalue="Python.Construct Binary Tree from Preorder and Inorder Traversal" />
       <item itemvalue="Python.Populating Next Right Pointers in Each Node" />
       <item itemvalue="Python.Populating Next Right Pointers in Each Node II" />
+      <item itemvalue="Python.Lowest Common Ancestor of a Binary Tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lowest Common Ancestor of a Binary Tree" />
         <item itemvalue="Python.Populating Next Right Pointers in Each Node II" />
         <item itemvalue="Python.Populating Next Right Pointers in Each Node" />
         <item itemvalue="Python.Construct Binary Tree from Preorder and Inorder Traversal" />
         <item itemvalue="Python.Construct Binary Tree from Inorder and Postorder Traversal" />
-        <item itemvalue="Python.Count_UnitValue_Subtree" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557958354321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="'add a new file'">
+      <created>1558031827131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558031827131</updated>
+    </task>
+    <task id="LOCAL-00009" summary="'add a new file'">
+      <created>1558032201183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558032201183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -538,17 +563,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="38" selection-start-line="38" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lowest Common Ancestor of a Binary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
         </state>
       </provider>
     </entry>
