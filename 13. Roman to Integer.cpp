@@ -61,7 +61,7 @@ public:
         };
         int sum = m[s.back()];
         
-        for (int i=s.size()-2; i>=0; --i){
+        for (int i=s.size()-2; i>=0; --i){ //compare the last 2nd digit and last one digit, then move reverse forward
             sum += m[s[i]] >= m[s[i+1]] ? m[s[i]] : -m[s[i]];
         }
         return sum;
