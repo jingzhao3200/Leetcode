@@ -44,7 +44,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  */
  
  
- class Solution {
+class Solution {
 public:
     int romanToInt(string s) {  
         if (s.empty()){
