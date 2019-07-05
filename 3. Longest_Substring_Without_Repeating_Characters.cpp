@@ -10,7 +10,7 @@
 
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(std::string s) {
         int n = s.length();
         int ans = 0;
         for (int i=0; i<n; i++){
@@ -23,8 +23,8 @@ public:
         return ans;
     }
 
-    bool allUnique(string s, int start, int end){
-        std::set<char> unique_set;
+    bool allUnique(std::string s, int start, int end){
+        std::set<char>unique_set;
         for (int i=start; i<end; i++){
             auto search = unique_set.find(s[i]);
             if (search != unique_set.end()){
@@ -38,11 +38,6 @@ public:
     }
 };
 
-int main(){
-    std::string s = "abcdd";
-    int res = Solution.lengthOfLongestSubstring(s);
-    string out = to_string(ret);
-    std::cout << out << endl;
 
-    return  0;
-}
+
+
