@@ -30,30 +30,33 @@ public:
 
 		for (int i=0; i<s.length(); i++){
 			char c = s[i];
-			cout << c << endl;
+			cout << "current:" << c << endl;
+			cout << myStack.size() << endl;
 
-			if (mappings.find(c) != mappings.end()){
-				char topElement = ( myStack.empty() ? '#' : myStack.top() );
-
+			// if current char is a closing bracket
+			if ( mappings.find(c) != mappings.end() ){
+				//get current top element of stack, if stack is empty, use '#' to indicate
+				char topElement =  myStack.empty() ? '#' : myStack.top();
+				myStack.pop();
+				cout << "top element: " << topElement << endl;
+				cout << "mapping value: " << mappings[c] << endl;
 				if (topElement != mappings[c]){
+					cout << "Reason: not the mapping value" << endl;
 					return false;
-
-				} else {
-					myStack.push(c);
-				}
+				} 
 			}
-			return myStack.empty();
-
-		}
-
-        return false;
-    }
- 
+			else{
+				myStack.push(c);
+			}
+	}
+	return myStack.empty();
+}
 };
+ 
 
 int main(){
 	Solution sol;
-	bool res = sol.isValid("()");
+	bool res = sol.isValid("[]");
 	cout << "Answer:" << res << endl;
 	return 0;
 }
