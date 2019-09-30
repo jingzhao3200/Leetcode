@@ -19,7 +19,7 @@ public:
 private:
     void dfs(vector<vector<char>>& grid, int i, int j, int m, int n){
          // cout << i<<", " << j << endl;
-        if ( i<0 || j<0 || i>=m || j>=n || grid[i][j]=='0' ) return;
+        if ( i<0 || j<0 || i>=m || j>=n || grid[i][j]=='0' ) return; // should check boundary condition first
         grid[i][j] = '0';
         dfs(grid, i-1, j, m, n);
         dfs(grid, i+1, j, m, n);
